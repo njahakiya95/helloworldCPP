@@ -26,6 +26,20 @@ double BankAccount::Wthdraw(double wd_amount) {
 }
 
 //Deposit adds a user-input amount to balance
-void Deposit(dp_amount)  
-//double CurrentBalance();            
-//int ShowAccountInfo();              
+void BankAccount::Deposit(double dp_amount) {
+    balance += dp_amount;
+    cout << "The new balance is\n" << balance << endl;
+} 
+
+//CurrentBalance shows the current account balance
+double BankAccount::CurrentBalance() {
+    cout << "The current balance is: \n"; 
+    return (balance); 
+}
+          
+//ShowAccountInfo displays the first name, last name, and account number
+void BankAccount::ShowAccountInfo() {
+    cout << "The first name of this account is: " << firstName << endl; 
+    cout << "The last name of this account is: " << firstName << endl; 
+    cout << "The account number is: " << act_number << endl; 
+}          
