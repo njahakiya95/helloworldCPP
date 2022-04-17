@@ -10,7 +10,7 @@ class CheckingAccount::public BankAccount {
         
     public:
         //CheckingAccount constructor 
-        CheckingAccount(int act_num = 1234, double checkact_balance = 1000, double charge = 0.5); 
+        CheckingAccount(int act_num = 1234, double checkact_balance = 0, double min_balance = 1000, double charge = 0.5); 
         //CheckingAccount CashCheck method cashes the user input amount given
         void CashCheck(double check_amount); 
 }
