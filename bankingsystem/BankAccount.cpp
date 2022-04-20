@@ -1,14 +1,7 @@
 #include "BankAccount.h"
 #include <iostream>
-using namespace std; 
 
-// BankAccount constructor
-BankAccount::BankAccount(string fname, string lname, int act_num, double bal) {
-    firstName = fname;
-    lastName = lname; 
-    act_number = act_num;
-    balance = bal; 
-}
+using namespace std; 
 
 // BankAccount class method defintions
 
