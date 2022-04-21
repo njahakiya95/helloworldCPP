@@ -6,7 +6,7 @@ using namespace std;
 // BankAccount class method defintions
 
 //Withdraw subtracts a user-input amount from balance
-double BankAccount::Wthdraw(double wd_amount) {
+double BankAccount::Withdraw(double wd_amount) {
     if (balance <= wd_amount) {
         cout << "ERROR: CANNOT WITHDRAW VALUE\n"; 
         cout << "Current balance is less than desired withdraw amount"; 
@@ -32,7 +32,5 @@ double BankAccount::CurrentBalance() {
           
 //ShowAccountInfo displays the first name, last name, and account number
 void BankAccount::ShowAccountInfo() {
-    cout << "The first name of this account is: " << firstName << endl; 
-    cout << "The last name of this account is: " << firstName << endl; 
     cout << "The account number is: " << act_number << endl; 
 }          
