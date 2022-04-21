@@ -1,13 +1,10 @@
 #ifndef BANKACCOUNT_H
 #define BANKACCOUNT_H
-#include <string>
 
 class BankAccount
 {
     //BankAccount class attributes 
     protected:
-        std::string firstName;   //stores first name
-        std::string lastName;    //stores last name
         int act_number;     //stores account number
         double balance;     //stores account balance
     
